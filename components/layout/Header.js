@@ -29,7 +29,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                                 <nav className="nav-main-menu d-none d-xl-block">
                                     <ul className="main-menu">
                                         <li className="has-children">
-                                            <Link href="#"><a className="active">Home</a></Link>
+                                            <Link href="#"><a className="active acuspad">Home</a></Link>
                                             <ul className="sub-menu two-col">
                                                 <li>
                                                     <Link href="/"><a><i className="fi fi-rr-home" />Homepage - 1</a></Link>
@@ -58,7 +58,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                                             </ul>
                                         </li>
                                         <li className="has-children">
-                                            <Link href="#"><a>About</a></Link>
+                                            <Link href="#"><a class="acuspad">About</a></Link>
                                             <ul className="sub-menu">
                                                 <li>
                                                     <Link href="/page-about-1"><a><i className="fi fi-rr-star" />About Us - 1</a></Link>
@@ -72,7 +72,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                                             </ul>
                                         </li>
                                         <li className="has-children">
-                                            <Link href="#"><a>Company</a></Link>
+                                            <Link href="#"><a class="acuspad">Company</a></Link>
                                             <ul className="sub-menu">
                                                 <li>
                                                     <Link href="/page-service-1"><a className="closer"><i className="fi fi-rr-gem" />Services - 1</a></Link>
@@ -104,7 +104,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                                             </ul>
                                         </li>
                                         <li className="has-children">
-                                            <Link href="#"><a>Pages</a></Link>
+                                            <Link href="#"><a class="acuspad">Pages</a></Link>
                                             <ul className="sub-menu">
                                                 <li>
                                                     <Link href="/page-contact"><a><i className="fi fi-rr-paper-plane" />Contact</a></Link>
@@ -124,7 +124,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                                             </ul>
                                         </li>
                                         <li className="has-children">
-                                            <Link href="#"><a>Blog</a></Link>
+                                            <Link href="#"><a class="acuspad">Blog</a></Link>
                                             <ul className="sub-menu">
                                                 <li>
                                                     <Link href="/blog-1"><a className="closer"><i className="fi fi-rr-edit" />Blog Archive - 1</a></Link>
@@ -139,7 +139,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                                             </ul>
                                         </li>
                                         <li className="has-children">
-                                            <a href="#">Shop</a>
+                                            <a href="#" class="acuspad">Shop</a>
                                             <ul className="sub-menu">
                                                 <li><Link href="/page-shop-grid-1"><a className="closer"><i className="fi fi-rr-edit"></i>Shop Grid - 1</a></Link></li>
                                                 <li><Link href="/page-shop-grid-2"><a className="closer"><i className="fi fi-rr-edit"></i>Shop Grid - 2</a></Link></li>
@@ -148,14 +148,14 @@ const Header = ({ handleOpen, headerStyle }) => {
                                         </li>
                                     </ul>
                                 </nav>
-                                <div className="burger-icon burger-icon-white" onClick={handleOpen}>
+                                <div className="burger-icon burger-icon-white cusburgericon" onClick={handleOpen}>
                                     <span className="burger-icon-top" /><span className="burger-icon-mid" /><span className="burger-icon-bottom" />
                                 </div>
                             </div>
                         </div>
                         <div className="header-right">
                             <div className="block-signin">
-                                <Link href="/page-signup"><a className="btn btn-default hover-up icon-arrow-right">Get Started</a></Link>
+                                <Link href="/page-signup"><span className="btn btn-default hover-up icon-arrow-right acuspad">Get Started</span></Link>
                             </div>
                         </div>
                     </div>
