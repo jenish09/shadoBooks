@@ -17,10 +17,10 @@ const Header = ({ handleOpen, headerStyle }) => {
                 <div className="container">
                     <div className="main-header">
                         <div className="header-left">
-                            <div className="header-logo">
+                            <div className="header-logo ">
                                 <Link href="/">
                                     <a className="d-flex">
-                                        {headerStyle ? <img alt="Agon" src="/assets/imgs/template/logo-white.svg" /> : <img alt="Agon" src="/assets/imgs/template/logo.svg" />}
+                                        {headerStyle ? <img width={150} alt="Agon" src="/assets/logo/logo.png" /> : <img width={150} alt="Agon" src="/assets/logo/logo.png" />}
 
                                     </a>
                                 </Link>
@@ -28,51 +28,32 @@ const Header = ({ handleOpen, headerStyle }) => {
                             <div className="header-nav">
                                 <nav className="nav-main-menu d-none d-xl-block">
                                     <ul className="main-menu">
-                                        <li className="has-children">
-                                            <Link href="#"><a className="active acuspad">Home</a></Link>
-                                            <ul className="sub-menu two-col">
-                                                <li>
-                                                    <Link href="/"><a><i className="fi fi-rr-home" />Homepage - 1</a></Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/index-2"><a><i className="fi fi-rr-home" />Homepage - 2</a></Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/index-3"><a><i className="fi fi-rr-home" />Homepage - 3</a></Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/index-4"><a><i className="fi fi-rr-home" />Homepage - 4</a></Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/index-5"><a><i className="fi fi-rr-home" />Homepage - 5</a></Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/index-6"><a><i className="fi fi-rr-home" />Homepage - 6</a></Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/index-7"><a><i className="fi fi-rr-home" />Homepage - 7</a></Link>
-                                                </li>
-                                                <li>
-                                                    <Link href="/index-8"><a><i className="fi fi-rr-home" />Homepage - 8</a></Link>
-                                                </li>
-                                            </ul>
+                                        <li className="">
+                                            <Link href="/"><a className="active acuspad">Home</a></Link>
+                                            
                                         </li>
                                         <li className="has-children">
-                                            <Link href="#"><a class="acuspad">About</a></Link>
+                                            <Link href="#"><a class="acuspad">Features</a></Link>
                                             <ul className="sub-menu">
                                                 <li>
-                                                    <Link href="/page-about-1"><a><i className="fi fi-rr-star" />About Us - 1</a></Link>
+                                                    <Link href="/page-about-1"><a><i className="fi fi-rr-star" />Analytics</a></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/page-about-2"><a><i className="fi fi-rr-star" />About Us - 2</a></Link>
+                                                    <Link href="/page-about-2"><a><i className="fi fi-rr-star" />Automated Marketing</a></Link>
                                                 </li>
                                                 <li>
-                                                    <Link href="/page-about-3"><a><i className="fi fi-rr-star" />About Us - 3</a></Link>
+                                                    <Link href="/page-about-3"><a><i className="fi fi-rr-star" />Mobile App</a></Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="/page-about-3"><a><i className="fi fi-rr-star" />Process Management</a></Link>
+                                                </li>
+                                                <li>
+                                                    <Link href="/page-about-3"><a><i className="fi fi-rr-star" />Customization</a></Link>
                                                 </li>
                                             </ul>
                                         </li>
                                         <li className="has-children">
-                                            <Link href="#"><a class="acuspad">Company</a></Link>
+                                            <Link href="#"><a class="acuspad">Pricing</a></Link>
                                             <ul className="sub-menu">
                                                 <li>
                                                     <Link href="/page-service-1"><a className="closer"><i className="fi fi-rr-gem" />Services - 1</a></Link>
@@ -104,7 +85,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                                             </ul>
                                         </li>
                                         <li className="has-children">
-                                            <Link href="#"><a class="acuspad">Pages</a></Link>
+                                            <Link href="#"><a class="acuspad">Support</a></Link>
                                             <ul className="sub-menu">
                                                 <li>
                                                     <Link href="/page-contact"><a><i className="fi fi-rr-paper-plane" />Contact</a></Link>
@@ -124,7 +105,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                                             </ul>
                                         </li>
                                         <li className="has-children">
-                                            <Link href="#"><a class="acuspad">Blog</a></Link>
+                                            <Link href="#"><a class="acuspad">Resources</a></Link>
                                             <ul className="sub-menu">
                                                 <li>
                                                     <Link href="/blog-1"><a className="closer"><i className="fi fi-rr-edit" />Blog Archive - 1</a></Link>
@@ -139,7 +120,7 @@ const Header = ({ handleOpen, headerStyle }) => {
                                             </ul>
                                         </li>
                                         <li className="has-children">
-                                            <a href="#" class="acuspad">Shop</a>
+                                            <a href="#" class="acuspad">Solutions</a>
                                             <ul className="sub-menu">
                                                 <li><Link href="/page-shop-grid-1"><a className="closer"><i className="fi fi-rr-edit"></i>Shop Grid - 1</a></Link></li>
                                                 <li><Link href="/page-shop-grid-2"><a className="closer"><i className="fi fi-rr-edit"></i>Shop Grid - 2</a></Link></li>

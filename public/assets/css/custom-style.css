@@ -12,3 +12,17 @@
     padding: 15px 41px  !important;
     cursor: pointer;
   }
+
+
+  .header .main-menu li a:hover {
+    color: #90331C !important;
+}
+
+.btn.btn-default:hover {
+    background-color: #90331C !important; 
+}
+
+.header .main-menu li ul {
+
+    min-width: 215px;
+}
